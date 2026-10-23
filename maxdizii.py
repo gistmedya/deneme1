@@ -17,7 +17,7 @@ STREAM_KEY = os.getenv("STREAM_KEY") or "maxdizi"
 RTMP_SERVER = f"{RTMP_URL}/{STREAM_KEY}"
 
 M3U_URL = os.getenv("M3U_URL") or "https://raw.githubusercontent.com/UzunMuhalefet/Legal-IPTV/refs/heads/main/lists/video/sources/www-kanald-com-tr/arsiv-diziler.m3u"
-LOGO_URL = os.getenv("LOGO_URL") or "https://raw.githubusercontent.com/ino8090/0101/refs/heads/main/1791047356035.png"
+LOGO_URL = os.getenv("LOGO_URL") or "https://raw.githubusercontent.com/gistmedya/0101/refs/heads/main/1791047356035.png"
 
 STATE_FILE_NAME = os.getenv("STATE_FILE_NAME", "maxdizi.json")
 GITHUB_STEP_SUMMARY = os.getenv("GITHUB_STEP_SUMMARY")
